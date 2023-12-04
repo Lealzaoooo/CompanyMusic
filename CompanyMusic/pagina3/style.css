@@ -1,0 +1,1059 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: black;
+}
+
+:root{
+    --bg-color:var(--bg-color) 
+    --text-color: 	#000000;
+    --main-color: #FF0000;
+    --h1-font: 4rem;
+    --p-font: 1rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    align-items: center;
+    padding: 20px 20px;
+    height: 100px;
+}
+
+.logo {
+    
+}
+
+.navegação{
+    display: flex;
+   color: white;
+}
+
+.navegação a{
+    color: var(--other-color);
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0 30px;
+    transition: a .55s ease;
+    
+}
+
+.navegação a:hover {
+   color: var(--main-color)
+}
+
+.header-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+    color: white;
+}
+
+#menu{
+   font-size: 35px;
+   color: var(--tex-color);
+   z-index: 10001;
+   cursor: pointer;
+}
+
+.header-icons i {
+    font-size: 40px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.header-icons i:hover{
+     transform: translateY(-5px);
+     color: var(--main-color); 
+}
+.header-icons a {
+    color: #FF0000;
+}
+
+main {
+    margin-top: 100px;
+}
+
+.meio{
+     padding: 7rem 0 0 8.5rem;
+     line-height: 4rem;
+
+}
+
+.meio h1{
+ font-size: 5rem;
+ color:  black;
+ 
+}
+
+.meio h2{
+    font-size: 4rem;
+    color: white;
+
+}
+
+
+.meio button{
+background-color: #FF0000;
+padding: 1rem 3rem 1rem; 
+border-radius: 5px;
+color: white;
+font-size: 2rem;
+cursor:pointer;
+transition: 0.3s;
+border: none;
+}
+
+.meio p{
+font-size: 2rem;
+color: white;
+}
+
+.background {
+background-image: url();
+
+
+}
+body {
+    background-image: url(assets/imagemironmaiden.png);
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-position: fixed;
+   width: 100%;
+   max-width: 100%;
+  margin-top: 50px;
+  padding-top: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+       
+   }
+   header{
+display: flex;
+justify-content:space-around;
+padding-top: 1rem;
+align-items: center;
+text-align: center;
+width: 100%;
+top: 0;
+right: 0;
+z-index: 1000;
+position: fixed;
+transition: all .35s ease;
+background-color: black;
+
+
+
+
+   }
+   .centro {
+    color: white;
+    padding-top: 800px;
+    margin-left: 600px;
+    font-size: 50px;
+}
+
+.produto1 { 
+    
+    position: absolute;
+    bottom: 0;
+    top: 134%;
+    left: 50%; 
+    float: left;
+    position: absolute;
+    left: 0;
+   
+    transform: translateY(0%);
+    color:  white;
+
+    padding-top: 6rem;
+    padding-left: 60px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: -50px;
+ 
+   }
+
+   .guitarra1 {
+   color: white;
+
+
+   }
+   .produto1 button{
+    background-color: #FF0000;
+    padding: 1rem 1rem 1rem; 
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor:pointer;
+    transition: 0.3s;
+    border: none;
+ 
+    }
+
+    body{
+   
+
+    
+    }
+
+    .produto2{
+        position: absolute;
+        bottom: 0;
+        top: 134%;
+        left: 50%; 
+        float: left;
+        position: absolute;
+        left: 0;
+       
+        transform: translateY(0%);
+        color:  white;
+    
+        padding-top: 6rem;
+        padding-left: 60px;
+        font-size: 30px;
+        text-align: center;
+        position: relative;
+        top: -50px;
+       
+    }
+
+
+  
+
+    .produto2 button {
+        background-color: #FF0000;
+        padding: 1rem 1rem 1rem; 
+        border-radius: 5px;
+        color: white;
+        font-size: 1rem;
+        cursor:pointer;
+        transition: 0.3s;
+        border: none;
+
+
+    }
+
+    .produto3{
+        position: absolute;
+        bottom: 0;
+        top: 134%;
+        left: 50%; 
+        float: left;
+        position: absolute;
+        left: 0;
+       
+        transform: translateY(0%);
+        color:  white;
+    
+        padding-top: 6rem;
+        padding-left: 100px;
+        font-size: 30px;
+        text-align: center;
+        position: relative;
+        top: -50px;
+       
+    }
+
+
+  
+
+    .produto3 button {
+        background-color: #FF0000;
+        padding: 1rem 1rem 1rem; 
+        border-radius: 5px;
+        color: white;
+        font-size: 1rem;
+        cursor:pointer;
+        transition: 0.3s;
+        border: none;
+
+
+    }
+
+    .produto4 {
+        position: absolute;
+        bottom: 0;
+        top: 134%;
+        left: 50%; 
+        float: left;
+        position: absolute;
+        left: 0;
+       
+        transform: translateY(0%);
+        color:  white;
+    
+        padding-top: 6rem;
+        padding-left: 60px;
+        font-size: 30px;
+        text-align: center;
+        position: relative;
+        top: -50px;
+    }
+
+    .produto4 button {
+        background-color: #FF0000;
+        padding: 1rem 1rem 1rem; 
+        border-radius: 5px;
+        color: white;
+        font-size: 1rem;
+        cursor:pointer;
+        transition: 0.3s;
+        border: none;
+    }
+
+    .produto5 {
+        position: absolute;
+        bottom: 0;
+        top: 134%;
+        left: 50%; 
+        float: left;
+        position: absolute;
+        left: 0;
+       
+        transform: translateY(0%);
+        color:  white;
+    
+        padding-top: 6rem;
+        padding-left: 60px;
+        font-size: 30px;
+        text-align: center;
+        position: relative;
+        top: -50px;
+}
+
+.produto5 button {
+    background-color: #FF0000;
+    padding: 1rem 1rem 1rem; 
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor:pointer;
+    transition: 0.3s;
+    border: none;
+}
+
+.produto6{
+    position: absolute;
+    bottom: 0;
+    top: 134%;
+    left: 50%; 
+    float: left;
+    position: absolute;
+    left: 0;
+   
+    transform: translateY(0%);
+    color:  white;
+
+    padding-top: 6rem;
+    padding-left: 150px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: -50px;
+}
+
+.produto6 button{
+    background-color: #FF0000;
+    padding: 1rem 1rem 1rem; 
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor:pointer;
+    transition: 0.3s;
+    border: none;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Young Serif', serif;
+}
+
+.produto7 {
+    position: absolute;
+    bottom: 0;
+    top: 134%;
+    left: 50%; 
+    float: left;
+    position: absolute;
+    left: 0;
+   
+    transform: translateY(0%);
+    color:  white;
+
+    padding-top: 6rem;
+    padding-left: 60px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: -50px;
+}
+.produto7 button{
+    background-color: #FF0000;
+    padding: 1rem 1rem 1rem; 
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor:pointer;
+    transition: 0.3s;
+    border: none;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Young Serif', serif;
+}
+
+
+
+.produto8 {
+    position: absolute;
+    bottom: 0;
+    top: 134%;
+    left: 50%; 
+    float: left;
+    position: absolute;
+    left: 0;
+   
+    transform: translateY(0%);
+    color:  white;
+
+    padding-top: 120px;
+    padding-left: 60px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: -50px;
+
+}
+.produto8 button{
+    background-color: #FF0000;
+    padding: 1rem 1rem 1rem; 
+    border-radius: 6px;
+    color: white;
+    font-size: 1rem;
+    cursor:pointer;
+    transition: 0.3s;
+    border: none;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Young Serif', serif;
+}
+
+.produto9 {
+    position: absolute;
+    bottom: 0;
+    top: 134%;
+    left: 50%; 
+    float: left;
+    position: absolute;
+    left: 0;
+   
+    transform: translateY(0%);
+    color:  white;
+
+    padding-top: 160px;
+    padding-left: 60px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: -50px;
+}
+
+.produto9 button{
+    background-color: #FF0000;
+    padding: 1rem 1rem 1rem; 
+    border-radius: 6px;
+    color: white;
+    font-size: 1rem;
+    cursor:pointer;
+    transition: 0.3s;
+    border: none;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Young Serif', serif;
+}
+
+.produto10 {
+    position: absolute;
+    bottom: 0;
+    top: 134%;
+    left: 50%; 
+    float: left;
+    position: absolute;
+    left: 0;
+   
+    transform: translateY(0%);
+    color:  white;
+
+    padding-top: 180px;
+    padding-left: 5px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: -150px;
+    left: -1050px;
+}
+
+.produto10 button{
+    background-color: #FF0000;
+    padding: 1rem 1rem 1rem; 
+    border-radius: 6px;
+    color: white;
+    font-size: 1rem;
+    cursor:pointer;
+    transition: 0.3s;
+    border: none;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Young Serif', serif;
+}
+
+.produto11 {
+    position: absolute;
+    bottom: 0;
+    top: 134%;
+    left: 50%; 
+    float: left;
+    position: absolute;
+    left: 0;
+   
+    transform: translateY(0%);
+    color:  white;
+
+    padding-top: 10px;
+    padding-left: 660px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: -635px;
+}
+
+.produto11 button{
+    background-color: #FF0000;
+    padding: 1rem 1rem 1rem; 
+    border-radius: 6px;
+    color: white;
+    font-size: 1rem;
+    cursor:pointer;
+    transition: 0.3s;
+    border: none;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Young Serif', serif;
+}
+
+.produto12 {
+    position: absolute;
+    bottom: 0;
+    top: 134%;
+    left: 50%; 
+    float: left;
+    position: absolute;
+    left: 0;
+   
+    transform: translateY(0%);
+    color:  white;
+
+    padding-top: 20px;
+    padding-left: 360px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: -430px;
+}
+
+.produto12 button{
+    background-color: #FF0000;
+    padding: 1rem 1rem 1rem; 
+    border-radius: 6px;
+    color: white;
+    font-size: 1rem;
+    cursor:pointer;
+    transition: 0.3s;
+    border: none;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Young Serif', serif;
+}
+
+.produto13 {
+    position: absolute;
+    bottom: 0;
+    top: 134%;
+    left: 50%; 
+    float: left;
+    position: absolute;
+    left: 0;
+   
+    transform: translateY(0%);
+    color:  white;
+
+    padding-top: 50px;
+    padding-left: 1px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: -450px;
+    left: -890px;
+}
+
+.produto13 button{
+    background-color: #FF0000;
+    padding: 1rem 1rem 1rem; 
+    border-radius: 6px;
+    color: white;
+    font-size: 1rem;
+    cursor:pointer;
+    transition: 0.3s;
+    border: none;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Young Serif', serif;
+}
+
+.produto14 {
+    position: absolute;
+    bottom: 0;
+    top: 134%;
+    left: 50%; 
+    float: left;
+    position: absolute;
+    left: 0;
+   
+    transform: translateY(0%);
+    color:  white;
+
+    padding-top: 1px;
+    padding-left: 50px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: -390px;
+    left: -815px;
+}
+
+.produto14 button{
+    background-color: #FF0000;
+    padding: 1rem 1rem 1rem; 
+    border-radius: 6px;
+    color: white;
+    font-size: 1rem;
+    cursor:pointer;
+    transition: 0.3s;
+    border: none;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Young Serif', serif;
+}
+
+.produto15 {
+    position: absolute;
+    bottom: 0;
+    top: 134%;
+    left: 50%; 
+    float: left;
+    position: absolute;
+    left: 0;
+   
+    transform: translateY(0%);
+    color:  white;
+
+    padding-top: 5px;
+    padding-left:990px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: -925px;
+    left: 200px;
+}
+
+.produto15 button{
+    background-color: #FF0000;
+    padding: 1rem 1rem 1rem; 
+    border-radius: 6px;
+    color: white;
+    font-size: 1rem;
+    cursor:pointer;
+    transition: 0.3s;
+    border: none;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Young Serif', serif;
+}
+
+.produto16 {
+    position: absolute;
+    bottom: 0;
+    top: 134%;
+    left: 50%; 
+    float: left;
+    position: absolute;
+    left: 0;
+   
+    transform: translateY(0%);
+    color:  white;
+
+    padding-top: 5px;
+    padding-left:400px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: -890px;
+    left: 900px;
+}
+
+.produto16 button{
+    background-color: #FF0000;
+    padding: 1rem 1rem 1rem; 
+    border-radius: 6px;
+    color: white;
+    font-size: 1rem;
+    cursor:pointer;
+    transition: 0.3s;
+    border: none;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Young Serif', serif;
+}
+
+.produto17 {
+    position: absolute;
+    bottom: 0;
+    top: 134%;
+    left: 50%; 
+    float: left;
+    position: absolute;
+    left: 0;
+   
+    transform: translateY(0%);
+    color:  white;
+
+    padding-top: 10px;
+    padding-left:10px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: -900px;
+    left: -700px;
+}
+
+.produto17 button{
+    background-color: #FF0000;
+    padding: 1rem 1rem 1rem; 
+    border-radius: 6px;
+    color: white;
+    font-size: 1rem;
+    cursor:pointer;
+    transition: 0.3s;
+    border: none;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Young Serif', serif;
+}
+
+.produto18 {
+    position: absolute;
+    bottom: 0;
+    top: 134%;
+    left: 50%; 
+    float: left;
+    position: absolute;
+    left: 0;
+   
+    transform: translateY(0%);
+    color:  white;
+
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: -870px;
+    left: -540px;
+}
+
+.produto18 button{
+    background-color: #FF0000;
+    padding: 1rem 1rem 1rem; 
+    border-radius: 6px;
+    color: white;
+    font-size: 1rem;
+    cursor:pointer;
+    transition: 0.3s;
+    border: none;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Young Serif', serif;
+}
+
+.produto19 {
+    position: absolute;
+    bottom: 0;
+    top: 134%;
+    left: 50%; 
+    float: left;
+    position: absolute;
+    left: 0;
+   
+    transform: translateY(0%);
+    color:  white;
+
+    padding-top: 700px;
+    padding-left: 100px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: -1450px;
+}
+
+.produto19 button{
+    background-color: #FF0000;
+    padding: 1rem 1rem 1rem; 
+    border-radius: 6px;
+    color: white;
+    font-size: 1rem;
+    cursor:pointer;
+    transition: 0.3s;
+    border: none;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Young Serif', serif;
+}
+
+.produto20 {
+    position: absolute;
+    bottom: 0;
+    top: 134%;
+    left: 50%; 
+    float: left;
+    position: absolute;
+    left: 0;
+   
+    transform: translateY(0%);
+    color:  white;
+
+    padding-top: 10px;
+    padding-left: 50px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: -1810px;
+    left: -30px;
+}
+
+.produto20 button{
+    background-color: #FF0000;
+    padding: 1rem 1rem 1rem; 
+    border-radius: 6px;
+    color: white;
+    font-size: 1rem;
+    cursor:pointer;
+    transition: 0.3s;
+    border: none;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Young Serif', serif;
+}
+
+.produto21 {
+    position: absolute;
+    bottom: 0;
+    top: 134%;
+    left: 50%; 
+    float: left;
+    position: absolute;
+    left: 0;
+   
+    transform: translateY(0%);
+    color:  white;
+
+    padding-top: 1px;
+    padding-left: 130px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: -1800px;
+
+
+
+}
+
+.produto21 button{
+    background-color: #FF0000;
+    padding: 1rem 1rem 1rem; 
+    border-radius: 6px;
+    color: white;
+    font-size: 1rem;
+    cursor:pointer;
+    transition: 0.3s;
+    border: none;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Young Serif', serif;
+}
+
+.produto22 {
+    position: absolute;
+    bottom: 0;
+    top: 134%;
+    left: 50%; 
+    float: left;
+    position: absolute;
+    left: 0;
+   
+    transform: translateY(0%);
+    color:  white;
+
+    padding-top: 650px;
+    padding-left: 300px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: -1910px;
+
+
+
+}
+
+.produto22 button{
+    background-color: #FF0000;
+    padding: 1rem 1rem 1rem; 
+    border-radius: 6px;
+    color: white;
+    font-size: 1rem;
+    cursor:pointer;
+    transition: 0.3s;
+    border: none;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Young Serif', serif;
+}
+
+.produto23 {
+    position: absolute;
+    bottom: 0;
+    top: 134%;
+    left: 50%; 
+    float: left;
+    position: absolute;
+    left: 0;
+   
+    transform: translateY(0%);
+    color:  white;
+
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: -2400px;
+
+
+
+}
+
+.produto23 button{
+    background-color: #FF0000;
+    padding: 1rem 1rem 1rem; 
+    border-radius: 6px;
+    color: white;
+    font-size: 1rem;
+    cursor:pointer;
+    transition: 0.3s;
+    border: none;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Young Serif', serif;
+}
+
+
+.produto24 {
+    position: absolute;
+    bottom: 0;
+    top: 134%;
+    left: 50%; 
+    float: left;
+    position: absolute;
+    left: 0;
+   
+    transform: translateY(0%);
+    color:  white;
+
+    padding-top: 5px;
+    padding-left: 200px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: -2385px;
+    left: -100px;
+
+
+
+}
+
+.produto24 button{
+    background-color: #FF0000;
+    padding: 1rem 1rem 1rem; 
+    border-radius: 6px;
+    color: white;
+    font-size: 1rem;
+    cursor:pointer;
+    transition: 0.3s;
+    border: none;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Young Serif', serif;
+}

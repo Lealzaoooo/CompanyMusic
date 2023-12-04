@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: black;
+}
+
+:root{
+    --bg-color:var(--bg-color) 
+    --text-color: 	#000000;
+    --main-color: #FF0000;
+    --h1-font: 4rem;
+    --p-font: 1rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    align-items: center;
+    padding: 20px 20px;
+    height: 100px;
+}
+
+.header-icons a {
+    color: #FF0000;
+}
+
+.navegação{
+    display: flex;
+   color: white;
+}
+
+.navegação a{
+    color: var(--other-color);
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0 30px;
+    transition: a .55s ease;
+    
+}
+
+.navegação a:hover {
+   color: var(--main-color)
+}
+
+.header-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+    color: white;
+}
+
+#menu{
+   font-size: 35px;
+   color: var(--tex-color);
+   z-index: 10001;
+   cursor: pointer;
+}
+
+.header-icons i {
+    font-size: 40px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.header-icons i:hover{
+     transform: translateY(-5px);
+     color: var(--main-color); 
+}
+
+main {
+    margin-top: 100px;
+}
+
+.meio h2{
+    font-size: 2rem;
+    color: white;
+
+}
+
+.meio p{
+ 
+}
+
+
+    .meio h1 {
+        font-size: 2rem;
+    color: white; 
+    }
+    
+    .meio{
+margin: 100px;
+
+
+
+    }
+
+    body {
+        text-align: center;
+      }
+      .p {
+        font-size: 5rem; 
+      }
+      h2 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+    
+}

@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: black;
+}
+
+:root{
+    --bg-color:var(--bg-color) 
+    --text-color: 	#000000;
+    --main-color: #FF0000;
+    --h1-font: 4rem;
+    --p-font: 1rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    align-items: center;
+    padding: 20px 20px;
+    height: 100px;
+}
+
+.logo {
+    
+}
+
+.navegação{
+    display: flex;
+   color: white;
+}
+
+.navegação a{
+    color: var(--other-color);
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0 30px;
+    transition: a .55s ease;
+    
+}
+
+.navegação a:hover {
+   color: var(--main-color)
+}
+
+.header-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+    color: white;
+}
+.header-icons a {
+    color: #FF0000;
+}
+
+#menu{
+   font-size: 35px;
+   color: var(--tex-color);
+   z-index: 10001;
+   cursor: pointer;
+}
+
+.header-icons i {
+    font-size: 40px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.header-icons i:hover{
+     transform: translateY(-5px);
+     color: var(--main-color); 
+}
+.header-icons a {
+    color: #FF0000;
+}
+
+main {
+    margin-top: 100px;
+}
+
+.meio{
+     padding: 7rem 0 0 8.5rem;
+     line-height: 4rem;
+
+}
+
+.meio h1{
+ font-size: 5rem;
+ color:  white;
+}
+
+.meio h2{
+    font-size: 4rem;
+    color: white;
+
+}
+
+
+.meio button{
+background-color: #FF0000;
+padding: 1rem 3rem 1rem; 
+border-radius: 5px;
+color: white;
+font-size: 2rem;
+cursor:pointer;
+transition: 0.3s;
+border: none;
+}
+
+.meio p{
+font-size: 2rem;
+color: white;
+}
+
+.background {
+background-image: url();
+
+
+}
+body {
+    background-image: url(assets/imagemmetallica.png);
+   background-repeat: no-repeat;
+   background-size:cover;
+   background-position: fixed;
+   width: 100%;
+   max-width: 100%;
+  margin-top: 50px;
+  padding-top: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+       
+   }
+   header{
+display: flex;
+justify-content:space-around;
+padding-top: 1rem;
+align-items: center;
+text-align: center;
+width: 100%;
+top: 0;
+right: 0;
+z-index: 1000;
+position: fixed;
+transition: all .35s ease;
+background-color: black;
+
+
+
+
+   }
+   .centro {
+    color: white;
+    padding-top: 800px;
+    margin-left: 600px;
+    font-size: 50px;
+}
+
+.produto1 { 
+    
+    position: absolute;
+    bottom: 0;
+    top: 134%;
+    left: 50%; 
+    float: left;
+    position: absolute;
+    left: 0;
+   
+    transform: translateY(0%);
+    color:  white;
+
+    padding-top: 6rem;
+    padding-left: 60px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: -50px;
+ 
+   }
+
+   .guitarra1 {
+   color: white;
+
+
+   }
+   .produto1 button{
+    background-color: #FF0000;
+    padding: 1rem 1rem 1rem; 
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor:pointer;
+    transition: 0.3s;
+    border: none;
+ 
+    }
+
+    body{
+   
+
+    
+    }
+
+    .produto2{
+        position: absolute;
+        bottom: 0;
+        top: 134%;
+        left: 50%; 
+        float: left;
+        position: absolute;
+        left: 0;
+       
+        transform: translateY(0%);
+        color:  white;
+    
+        padding-top: 6rem;
+        padding-left: 60px;
+        font-size: 30px;
+        text-align: center;
+        position: relative;
+        top: -50px;
+       
+    }
+
+
+  
+
+    .produto2 button {
+        background-color: #FF0000;
+        padding: 1rem 1rem 1rem; 
+        border-radius: 5px;
+        color: white;
+        font-size: 1rem;
+        cursor:pointer;
+        transition: 0.3s;
+        border: none;
+
+
+    }
+
+    .produto3{
+        position: absolute;
+        bottom: 0;
+        top: 134%;
+        left: 50%; 
+        float: left;
+        position: absolute;
+        left: 0;
+       
+        transform: translateY(0%);
+        color:  white;
+    
+        padding-top: 6rem;
+        padding-left: 60px;
+        font-size: 30px;
+        text-align: center;
+        position: relative;
+        top: -50px;
+       
+    }
+
+
+  
+
+    .produto3 button {
+        background-color: #FF0000;
+        padding: 1rem 1rem 1rem; 
+        border-radius: 5px;
+        color: white;
+        font-size: 1rem;
+        cursor:pointer;
+        transition: 0.3s;
+        border: none;
+
+
+    }
+
+    .produto4 {
+        position: absolute;
+        bottom: 0;
+        top: 134%;
+        left: 50%; 
+        float: left;
+        position: absolute;
+        left: 0;
+       
+        transform: translateY(0%);
+        color:  white;
+    
+        padding-top: 6rem;
+        padding-left: 60px;
+        font-size: 30px;
+        text-align: center;
+        position: relative;
+        top: -50px;
+    }
+
+    .produto4 button {
+        background-color: #FF0000;
+        padding: 1rem 1rem 1rem; 
+        border-radius: 5px;
+        color: white;
+        font-size: 1rem;
+        cursor:pointer;
+        transition: 0.3s;
+        border: none;
+    }
+
+    .produto5 {
+        position: absolute;
+        bottom: 0;
+        top: 134%;
+        left: 50%; 
+        float: left;
+        position: absolute;
+        left: 0;
+       
+        transform: translateY(0%);
+        color:  white;
+    
+        padding-top: 6rem;
+        padding-left: 60px;
+        font-size: 30px;
+        text-align: center;
+        position: relative;
+        top: -50px;
+}
+
+.produto5 button {
+    background-color: #FF0000;
+    padding: 1rem 1rem 1rem; 
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor:pointer;
+    transition: 0.3s;
+    border: none;
+}
+
+.produto6{
+    position: absolute;
+    bottom: 0;
+    top: 134%;
+    left: 50%; 
+    float: left;
+    position: absolute;
+    left: 0;
+   
+    transform: translateY(0%);
+    color:  white;
+
+    padding-top: 6rem;
+    padding-left: 60px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: -50px;
+}
+
+.produto6 button{
+    background-color: #FF0000;
+    padding: 1rem 1rem 1rem; 
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    cursor:pointer;
+    transition: 0.3s;
+    border: none;
+}
